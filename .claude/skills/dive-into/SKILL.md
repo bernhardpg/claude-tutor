@@ -1,15 +1,16 @@
 ---
 name: dive-into
-description: Go deep on a concept through my follow-up questions, while you keep the stack of open questions, track what I've understood, and quiz me before we go back up.
+description: Dive into a question or tangent that comes up along the way, without losing track of where I was. Keep the stack of open questions, track what I've understood, quiz me, and bring me back up to where I was.
 disable-model-invocation: true
 argument-hint: "A concept, or nothing for what we were just discussing"
 ---
 
 # Dive into
 
-I'm going down a rabbit hole: follow-up after follow-up, each one branching off the last.
-I drive where we go. Your job is to make each step land, keep the map so I can go deep
-without getting lost, and make sure what I learn sticks.
+A question or tangent came up along the way, and I want to dive into it: follow-up after
+follow-up, each one branching off the last. I drive where we go. Your job is to make each
+step land, keep track of where I was so I don't get lost, bring me back up there when the
+tangent is settled, and make sure what I learn sticks.
 
 ## Each answer
 
@@ -46,7 +47,7 @@ Quiz (review 01–03): Q5 open
 
 Track every concept the rabbit hole touches, in one of two states:
 
-- **got it**: I explained or applied it correctly;
+- **got it**: I explained or applied it correctly.
 - **needed a correction**: I had it wrong or it only clicked after several rounds (note what
   I got wrong and the correct idea).
 
