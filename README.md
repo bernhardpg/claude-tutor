@@ -10,7 +10,23 @@ you got wrong, so that later quizzes ask it again.
 2. Run `uv sync` in the repo root.
 3. Open Claude Code in the repo root.
 
-## One lesson, from start to finish
+## Usage
+
+Run one Claude Code session per lesson, from the repo root. A lesson is a video or chapter
+of a course, or a paper.
+
+| Command | When |
+|---------|------|
+| `/start-lesson <course, lesson or paper>` | You begin something new. Claude sets up its folder and `progress.md`, and briefs you on what to watch for. |
+| `/dive-into [question]` | A question or tangent comes up along the way. Claude follows it with you and brings you back to where you were. |
+| `/quiz` | After a section, or at the end of the lesson. Claude quizzes you on the lesson and on earlier lessons, and records what you got wrong. |
+| `/quiz review` | After a break. Claude quizzes you on the whole course, with no new material. |
+| `/finish-lesson` | You are at the end of the lesson. Claude marks it done, commits, pushes, and names the next lesson. |
+
+Between commands, ask Claude anything. It answers with hints first and writes code only
+when you ask.
+
+## Example: one lesson, from start to finish
 
 This shows how to use claude-tutor with Andrej Karpathy's
 [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html). Its roadmap is in
