@@ -66,25 +66,26 @@ Claude gives a hint first, then a bigger hint, then the answer.
 
 ### Dive into a tangent
 
-A question comes up along the way, such as why gradients add up when a value is used twice.
-Dive into it without losing track of where you were:
+A question comes up along the way. For example, a quiz question about train and test data
+makes you wonder what distribution shift is. Dive into it without losing track of where you
+were:
 
 ```
-> /dive-into why gradients add up
+> /dive-into distribution shift
 ```
 
 Each follow-up question opens a new branch. Claude keeps track of the open ones and shows
 the tree when you ask "where were we?":
 
 ```
-Lesson 01: backward()
-└─ gradient accumulation
-   ├─ ✓ why += and not =
-   └─ ▸ zeroing gradients before each backward pass
+Quiz (review 01–03): Q5 open
+└─ distribution shift
+   ├─ ✓ why "covariate"
+   └─ ▸ kinds of shift: covariate (check question open) → label → concept
 ```
 
 When every branch is settled, Claude quizzes you on the tangent and brings you back up to
-where you were in the lesson.
+where you were, here quiz question 5.
 
 ### Get quizzed
 
