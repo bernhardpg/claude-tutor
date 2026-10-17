@@ -62,8 +62,7 @@ You follow the lesson and write the code. When you are stuck, ask:
 Look at line 42. What does p.grad hold when loss.backward() runs in the second step?
 ```
 
-Claude gives a hint first, then a bigger hint, then the answer. It writes code for you only
-when you ask ("just show me"), and marks that code with `# [claude]`.
+Claude gives a hint first, then a bigger hint, then the answer.
 
 ### Dive into a tangent
 
