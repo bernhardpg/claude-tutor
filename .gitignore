@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[oc]
+.venv
+
+# macOS
+.DS_Store
+
+# Paper PDFs: a cache, re-downloaded with `uv run papers/fetch.py`
+papers/*/pdfs/
+
+# Figures and other outputs
+**/out/

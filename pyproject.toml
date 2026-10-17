@@ -1,0 +1,7 @@
+[project]
+name = "claude-tutor"
+version = "0.1.0"
+description = "Learn by following courses and reading papers, with Claude Code as tutor"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
