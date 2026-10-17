@@ -67,11 +67,11 @@ Claude gives a hint first, then a bigger hint, then the answer.
 ### Dive into a tangent
 
 A question comes up along the way. For example, a quiz question about train and test data
-makes you wonder what distribution shift is. Dive into it without losing track of where you
-were:
+makes you wonder what the difference between covariate shift and label shift is. Dive into
+it without losing track of where you were:
 
 ```
-> /dive-into distribution shift
+> /dive-into what's the difference between covariate shift and label shift?
 ```
 
 Each follow-up question opens a new branch. Claude keeps track of the open ones and shows
@@ -79,9 +79,9 @@ the tree when you ask "where were we?":
 
 ```
 Quiz (review 01–03): Q5 open
-└─ distribution shift
-   ├─ ✓ why "covariate"
-   └─ ▸ kinds of shift: covariate (check question open) → label → concept
+└─ covariate shift vs. label shift
+   ├─ ✓ covariate shift: p(x) changes, p(y|x) stays the same
+   └─ ▸ label shift: p(y) changes, p(x|y) stays the same (check question open)
 ```
 
 When every branch is settled, Claude quizzes you on the tangent and brings you back up to
