@@ -12,7 +12,9 @@ you got wrong, so that later quizzes ask it again.
 
 ## One lesson, from start to finish
 
-This walk-through uses the example course in `courses/zero-to-hero/`.
+This shows how to use claude-tutor with Andrej Karpathy's
+[Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html). Its roadmap is in
+[`courses/zero-to-hero/`](courses/zero-to-hero/).
 
 ### Start the lesson
 
